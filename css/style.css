@@ -19,8 +19,8 @@ body {
 	transition: all 1000ms;
 }
 .header:hover::after{
-	filter: blur(10px);
-	-webkit-filter: blur(10px);
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
 }
 
 .header:hover .header-content{
@@ -44,9 +44,6 @@ body {
 
 }
 
-.title:hover {
-	font-size: 6rem;
-}
 .mapa{
 	height: 100%;
 	width: 300%;
@@ -61,6 +58,12 @@ body {
 .title1 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 5rem;
+	color: #F2B705;
+}
+
+.title2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 4rem;
 	color: #F2B705;
 }
 
@@ -116,6 +119,10 @@ body {
 
 .services {
 	padding: 2rem 0;
+}
+
+.blanco{
+	color: #fff;
 }
 
 footer{
